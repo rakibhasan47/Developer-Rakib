@@ -281,3 +281,38 @@ hr{
     border: 1px solid #FFB400;
 }
 /*-------------- servics section end ----------------------*/
+
+/*-------------- my experience start -----------------------*/
+
+.my-experience{
+    background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+    margin-bottom: 50px;
+    margin-top: 100px;
+    height: 240px;
+}
+.circle-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.circle{
+    margin-top: 20px;
+    padding: 50px 0px 50px 0px;
+    
+}
+.bg-year{
+    background-color: #EEEEEE;
+    padding: 10px 0px 10px 0px;
+    
+}
+.year{
+    color: #1A1A40;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.year-text{
+    color: #EEEEEE;
+    text-align: center;
+}
+/*-------------- my experience end -------------------------*/
