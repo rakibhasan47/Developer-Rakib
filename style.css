@@ -7,7 +7,7 @@
 
 
 body{
-    background-color: #EEEEEE;
+    
 }
 *{
     margin: 0;
@@ -194,7 +194,7 @@ html{
     font-size: 18px;
     font-family: sans-serif;
 }
-hr{
+.all-hr{
     height: 5px;
     margin: auto;
     border: none;
@@ -316,3 +316,121 @@ hr{
     text-align: center;
 }
 /*-------------- my experience end -------------------------*/
+
+
+/*-------------- my Skills start ---------------------------*/
+
+.my-Skills{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.my-Skill{
+    text-align: center;
+    font-size: 40px;
+    color: #414656;
+}
+.my-Skills img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 40px;
+}
+.my-Skills-flex{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.skill{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 10px;
+}
+.my-Skills img{
+    justify-content: center;
+}
+
+.icon-text{
+    font-weight: 600;
+    text-align: center;
+    color: #414656;
+    font-size: 16px;
+}
+/* all skills hr start */
+.html-hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#f06529;
+    border-radius: 10px;
+    width: 80px;
+}
+.css-hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#2965f1;
+    border-radius: 10px;
+    width: 80px;
+}
+.bootstrap-hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#563D7C;
+    border-radius: 10px;
+    width: 80px;
+}
+.js-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#F0DB4F;
+    border-radius: 10px;
+    width: 80px;
+}
+.React-hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#61DBFB;
+    border-radius: 10px;
+    width: 80px;
+}
+.GitHub-hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#000;
+    border-radius: 10px;
+    width: 80px;
+}
+.Sass-hr{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#cc6699;
+    border-radius: 10px;
+    width: 80px;
+}
+.Jquery-hr{
+    margin-top: 22px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#000;
+    border-radius: 10px;
+    width: 80px;
+}
+
+
+/* all skills hr end */
+
+
+
+/*-------------- my Skills end -----------------------------*/
