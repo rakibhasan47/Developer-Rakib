@@ -321,8 +321,8 @@ html{
 /*-------------- my Skills start ---------------------------*/
 
 .my-Skills{
-    margin-top: 50px;
-    margin-bottom: 100px;
+
+    margin-bottom: 50px;
 }
 .my-Skill{
     text-align: center;
@@ -354,7 +354,7 @@ html{
     color: #414656;
     font-size: 16px;
 }
-/* all skills hr start */
+/* all skills hr-1 start */
 .html-hr{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -427,15 +427,108 @@ html{
     border-radius: 10px;
     width: 80px;
 }
+/* all skills hr-1 end */
 
 
-/* all skills hr end */
+/* all skills hr-1 start */
+.justify-content-space-between{
+    
+}
 
+.tailwindCSS-hr{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-image: linear-gradient( 68.4deg,  rgba(99,251,215,1) -0.4%, rgba(5,222,250,1) 100.2% );
+    border-radius: 10px;
+    width: 80px;
+}
+.figma-hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#f06529;
+    border-radius: 10px;
+    width: 80px;
+}
+.mySQL-hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#00758F;
+    border-radius: 10px;
+    width: 80px;
+}
+.git-hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#00758F;
+    border-radius: 10px;
+    width: 80px;
+}
+.postgresQL-hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#00758F;
+    border-radius: 10px;
+    width: 80px;
+}
+.redis-hr{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#C32F2A;
+    border-radius: 10px;
+    width: 80px;
+}
+.redis-hr{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#2BA977;
+    border-radius: 10px;
+    width: 80px;
+}
+.django-hr{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#9F2927;
+    border-radius: 10px;
+    width: 80px;
+}
+.databases-hr{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    height: 4px;
+    border: none;
+    background-color:#91BAE1;
+    border-radius: 10px;
+    width: 80px;
+}
+
+
+
+/* all skills hr-1 end */
+
+
+/* animition start */
 .Skills-grid-1 img{
     transition: .5s;
 }
 .skill:hover img{
     transform: translateY(10px) scale(1);
- 
 }
+/* animition end */
+
 /*-------------- my Skills end -----------------------------*/
