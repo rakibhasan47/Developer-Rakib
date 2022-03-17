@@ -334,14 +334,14 @@ html{
     margin-top: 10px;
     width: 40px;
 }
-.my-Skills-flex{
+.Skills-grid-1{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
 .skill{
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 10px;
 }
 .my-Skills img{
@@ -431,6 +431,11 @@ html{
 
 /* all skills hr end */
 
-
-
+.Skills-grid-1 img{
+    transition: .5s;
+}
+.skill:hover img{
+    transform: translateY(10px) scale(1);
+ 
+}
 /*-------------- my Skills end -----------------------------*/
