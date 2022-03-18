@@ -321,8 +321,7 @@ html{
 /*-------------- my Skills start ---------------------------*/
 
 .my-Skills{
-
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .my-Skill{
     text-align: center;
@@ -559,6 +558,108 @@ html{
     transform: translateY(10px) scale(1);
 }
 /* animition end */
-
-
 /**------------ completed Website end ----------------------*/
+
+/*------------- fotter section start -----------------------*/
+.fotter{
+    background-color: #414656;
+}
+.fotter-grid{
+    padding: 30px 0px 30px 0px;
+    margin-bottom: 100;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.About h1{
+    color: white;
+}
+.About .About-hr{
+    height: 4px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #784cfb;
+    width: 95px;
+    border: none;
+}
+.About h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #D1D1D1;
+}
+.About h4{
+    color: #D1D1D1;
+    font-size: 17px;
+}
+.links .links-hr{
+    height: 4px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    background-color: #784cfb;
+    width: 75px;
+    border: none;
+}
+.links{
+    margin-left: 80px;
+}
+.links h1{
+    color: white;
+}
+.links ul li{
+    padding: 8px 0;
+    list-style: none;
+}
+.links ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #D1D1D1;
+    transition: 0.4s ease;
+}
+.links ul li a:hover{
+    color: #784cfb;
+}
+.subscribe h1{
+    color: white;
+}
+.subscribe .subscribe-hr{
+    height: 4px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #784cfb;
+    width: 155px;
+    border: none;
+}
+
+.subscribe p{
+    font-size: 18px;
+    color: #D1D1D1;
+}
+input{
+    background-color: #F2F2F2;
+    font-size: 16px;
+    font-weight: 500;
+    height: 35px;
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 8px 0 0 8px;
+    padding: 10px;
+    position: relative;
+}
+
+.subscribe-input .subscribe-btn{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 42.2px;
+    background-color: gold;
+    border-radius: 0px 8px 8px 0px;
+    padding: 6.9px 20px;
+    border: none;
+}
+.subscribe-input .subscribe-btn:hover{
+    color: white;
+    background-color: #7857FE;
+}
+
+
+
+
+/*------------- fotter section end ---------------------------*/
