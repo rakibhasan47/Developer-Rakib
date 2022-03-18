@@ -7,7 +7,7 @@
 
 
 body{
-    
+    background-color: #FFFFFF;   
 }
 *{
     margin: 0;
@@ -20,8 +20,6 @@ html{
     scroll-behavior: smooth;
 }
 /*-------------------- header nav srart --------------------*/
-
-
 .container{
     max-width: 1170px;
     margin: auto;
@@ -49,6 +47,7 @@ html{
 .navbar .logo img{
     width: 200px;
     height: 28px;
+    cursor: pointer;
 }
 .menu-list li a{
     font-family: 'Poppins', sans-serif;
@@ -197,6 +196,7 @@ html{
 .all-hr{
     height: 5px;
     margin: auto;
+    margin-top: 5px;
     border: none;
     background-color:#784cfb;
     border-radius: 10px;
@@ -338,7 +338,7 @@ html{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .skill{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -532,3 +532,33 @@ html{
 /* animition end */
 
 /*-------------- my Skills end -----------------------------*/
+
+
+/**------------ completed Website start --------------------*/
+
+.completed-Website{
+}
+.website-project{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 50px;
+}
+.website-img img{
+    border-radius: 5px;
+    width: 260px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+/* animition start */
+.website-img{
+    transition: .5s;
+}
+.website-img:hover{
+    transform: translateY(10px) scale(1);
+}
+/* animition end */
+
+
+/**------------ completed Website end ----------------------*/
